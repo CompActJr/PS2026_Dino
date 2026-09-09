@@ -1,0 +1,88 @@
+backlog:
+Hero:
+História do Usuário:
+Como potencial cliente, quero visualizar uma apresentação rápida da TechVet Júnior logo ao abrir o site, para entender imediatamente o que a empresa oferece e como entrar em contato.
+
+Critérios de Aceite:
+Deve ser a primeira seção apresentada ao carregar a página.
+Deve apresentar brevemente a TechVet Júnior.
+Deve possuir um botão de destaque.
+O botão deve direcionar para Serviços ou Contato.
+O conteúdo deve ser simples e de fácil compreensão.
+
+Quem somos:
+História do Usuário:
+Como produtor rural, quero ler uma breve descrição sobre a atuação da TechVet na área de Zootecnia, para entender melhor quais são os serviços e atividades a empresa oferece.
+
+Critérios de Aceite:
+Deve apresentar um texto explicativo sobre o foco da empresa na Zootecnia (consultoria para animais, propriedades rurais e solos e participação em eventos).
+O texto deve ter uma fonte legível e bom contraste, pensando no público mais velho.
+
+Contatos:
+História do Usuário:
+Como interessado nos serviços, quero encontrar um espaço centralizado com telefone, e-mail e redes sociais, para conseguir entrar em contato rapidamente com um representante da empresa.
+
+Critérios de Aceite:
+Deve exibir o número de telefone/whatsapp de forma clicavel (se for possível).
+Deve exibir o e-mail de contato oficial.
+Deve disponibilizar links para as redes sociais oficiais informadas pela TechVet.
+
+Menu de atalhos:
+História do Usuário:
+Como visitante do site, eu quero navegar rapidamente entre as seções do site, para encontrar as informações que procuro de forma simples e objetiva.
+
+Critérios de Aceite:
+Deve ter um menu de navegação fixo no topo da página.
+O menu deve possuir atalhos para as seções Quem somos, Serviços e Contato.
+O menu deve permitir que o usuário seja direcionado diretamente à seção selecionada.
+A seção Serviços deve possuir um submenu organizado por categorias de atuação.
+
+Footer:
+História do Usuário:
+Como um visitante do site, eu quero encontrar links rápidos e informações institucionais no final da página, para não precisar rolar até o topo caso queira navegar para outra área.
+
+Critérios de Aceite:
+Deve conter atalhos para as principais seções do website.
+Deve conter informações de contato.
+Deve conter informações institucionais definidas em conjunto com a TechVet.
+Pendência Legal/Institucional:
+Definir com a TechVet quais informações institucionais e legais devem aparecer no rodapé, como CNPJ, direitos autorais, política de privacidade e outros elementos necessários.
+
+Acessibilidade e facilidade de nav:
+História do Usuário:
+Como visitante do site, quero navegar de forma simples e encontrar as informações com facilidade, para conseguir utilizar o website independentemente da minha familiaridade com tecnologia.
+
+Critérios de Aceite:
+Os textos devem possuir tamanho e fonte que facilitem a leitura.
+Deve haver contraste adequado entre texto e fundo.
+Os elementos de navegação devem ser facilmente identificáveis.
+A estrutura das informações deve ser simples e objetiva.
+A navegação deve considerar as necessidades do público mais velho.
+
+Serviços:
+História do Usuário:
+Como indivíduo ligado à produção rural, quero visualizar uma lista detalhada dos serviços que a empresa júnior oferece, divididos por área, para saber se a TechVet resolve meu problema em específico.
+
+Critérios de Aceite:
+Os serviços devem ser agrupados por categorias claras (Bovinos, Caprinos, Solos, Eventos, etc)
+Cada categoria deve ter uma breve descrição do que é atendido.
+Obs:
+Temos que pedir ao Comercial para entrar em contato com a TechVet para pedir o restante do serviços que eles fazem.
+
+Responsividade:
+História do Usuário:
+Como visitante, quero acessar o website em diferentes dispositivos, para conseguir utilizar a página independentemente de estar usando computador, tablet ou celular.
+
+Critérios de Aceite:
+O site deve funcionar adequadamente em computadores.
+O site deve funcionar adequadamente em tablets.
+O site deve funcionar adequadamente em celulares.
+Os elementos da página devem se adaptar aos diferentes tamanhos de tela.
+
+Desempenho:
+História do Usuário:
+Como visitante, quero que site carregue rapidamente, para conseguir acessar as informações sem esperar muito tempo.
+
+Critérios de Aceite:
+O site deve evitar elementos desnecessariamente pesados.
+O carregamento das principais informações deve ocorrer rapidamente

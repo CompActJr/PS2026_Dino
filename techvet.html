@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVet Júnior</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/logo_techvet.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header id="nav" class="navbar">
+    <div class="navbar-container">
+
+        <div class="logo">
+            <div class="logo-img"><img src="assets/logo_techvet.png" alt="Logo TechVet"></div>
+            <span class="logo-texto">TechVet <span class="logo-jr">Jr</span></span>
+        </div>
+
+        <div class="menu-hamburguer" id="menu-hamburguer" >
+            &#9776;
+        </div>
+
+        <nav class="menu-mobile">
+            <ul class="nav-links">
+
+                <li><a href="#hero">Inicio</a></li>
+                
+                <li class="dropdown">
+                    <a href="#servicos">Serviços &#9662;</a>
+                    <ul class="submenu">
+                        <li><a href="#servicos-bovinos">Bovinos</a></li>
+                        <li><a href="#servicos-equinos">Equinos</a></li>
+                        <li><a href="#servicos-suinos">Suínos</a></li>
+                        <li><a href="#servicos-solos">Consultoria de Solos</a></li>
+                        <li><a href="#servicos-eventos">Eventos</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato-destacado">Contato</a></li>
+            
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero"  data-aos="fade-right" data-aos-delay="300">
+        <div class="container hero-container">
+            <div class="hero-conteudo">
+                <h1>Consultoria especializada para quem vive da terra e dos animais.</h1>
+                <p>A TechVet Júnior conecta conhecimento técnico da UFSM às necessidades reais do pequeno produtor rural — do manejo animal à gestão de solos.</p>
+                <a href="#servicos" class="btn-cta">Conheça nossos serviços</a>
+            </div>
+
+            <div class="hero-imagem">
+                <img src="assets/Zootecnia-2.jpg" alt="preencherdps">
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="servicos"  data-aos="fade-up" data-aos-delay="100"> 
+        <div class="container">
+            <div class="detalhe-linha-direita">
+                <h2>Serviços</h2>
+                
+            </div>
+        </div>
+
+        <div class="servicos-grid">
+
+            <div id="servicos-bovinos" class="servico-card" data-aos="fade-up" data-aos-delay="50">
+                
+                <h3>Bovinos</h3>
+                <p>Consultoria especializada em manejo reprodutivo, nutricional e sanitário para bovinos de corte e de leite, otimizando a produtividade do seu rebanho</p>
+
+                <img src="assets/bovinos.jpg" alt="bovinos" class="img_animais">
+
+            </div>
+            <div id="servicos-equinos" class="servico-card" data-aos="fade-up" data-aos-delay="100">
+                
+                <h3>Equinos</h3>
+                <p>Orientações técnica focada no bem-estar, reprodução e nutrição de equinos, incluindo cuidados especifícos com potros recém-nascidos.</p>
+
+                <img src="assets/equinos.jpg" alt="equinos" class="img_animais">
+
+            </div>            
+            <div id="servicos-suinos" class="servico-card" data-aos="fade-up" data-aos-delay="150">
+                
+                <h3>Suínos e Caprinos</h3>
+                <p>Acompanhamento de produção, controle de rebanho e adequação de instalações para garantir o máximo rendimento e sanidade animal.</p>
+
+                <img src="assets/suino.avif" alt="suinos" class="img_animais">
+
+            </div>
+            <div id="servicos-solos" class="servico-card" data-aos="fade-up" data-aos-delay="200">
+                
+                <h3>Consultoria de Solos</h3>
+                <p>Análises detalhadas e gestão estratégica de solos para garantir a máxima sustentabilidade e rentabilidade da sua terra.</p>
+
+                <img src="assets/solos.jpg" alt="solo" class="img_animais">
+
+            </div>
+            <div id="servicos-eventos" class="servico-card"  data-aos="fade-up" data-aos-delay="250">
+                
+                <h3>Participação em Eventos</h3>
+                <p>Representação, organização e palestras em ferias e eventos focados na área de Zootecnia e agronegócio.</p>
+
+                <img src="assets/eventos.jpeg" alt="evento_rural" class="img_animais">
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="sobre" class="quem-somos"  data-aos="fade-left" data-aos-delay="300">
+        <div class="container sobre-container">
+            <div class="sobre-conteudo">
+                <div class="detalhe-linha">
+                    <h2>A Empresa</h2>
+                    <p>Fundada em 2009, somos uma empresa júnior da UFSM formada por acadêmicos de Medicina Veterinária, Zootecnia, Agronomia e Administração. Nosso foco principal é a atuação na área de <strong>Zootecnia</strong>, oferecendo <strong>consultoria especializada para animais, gestão de propriedades rurais e solos, além da participação em eventos</strong> do setor. Nosso propósito é transformar conhecimento em experiência prática, tratando sua propriedade rural como uma verdadeira empresa.</p>
+                </div>
+                <p>Nosso objetivo é desenvolver pessoas e impactar a sociedade por meio do empreendedorismo no agronegócio. Trabalhamos para que, através dos nossos serviços, o produtor passe a encarar a sua propriedade como uma verdadeira empresa rural - focada em gestão de recursos, lucratividade e na busca constante pela <strong>Excelência com Simplicidade</strong></p>
+            </div>
+
+
+        <div class="bento-container">
+            <div class="bento-card">
+                <h4>Prática no Campo</h4>
+                <p>Vivência real ao lado do produtor</p>
+            </div>
+            <div class="bento-card">
+                <h4>Gestão Rural</h4>
+                <p>Sua propriedade vista como empresa</p>
+            </div>
+
+            <div class="bento-centro">
+                <span>TechVet<br>Jr</span>
+            </div>
+
+            <div class="bento-card">
+                <h4>Empreendedorismo</h4>
+                <p>Impactando o agronegócio</p>
+            </div>
+            <div class="bento-card">
+                <h4>Excelência</h4>
+                <p>Sempre com simplicidade</p>
+            </div>
+        </div>
+        </div>
+        </section>
+
+    <section id="contato-destacado" class="contato-destacado"  data-aos="fade-down" data-aos-delay="400">
+        <div class="container">
+            <h2>Fale Conosco</h2>
+            <p>Ficou alguma dúvida, quer saber mais sobre nossos serviços ou agendar uma consultoria? Nossa equipe está pronta para te atender!</p>
+
+            <div class="contato-botoes">
+                <a href="https://wa.me/5555997228872" target="_blank" class="btn-contato zap">
+                    <img src="assets/WhatsApp.svg.webp" alt="Logo Whatsapp"> 
+                    Chamar no WhatsApp
+                </a>
+            
+                <a href="mailto:techvetjunior@gmail.com" class="btn-contato email">
+                    ✉️ Enviar um E-mail
+                </a>
+
+                <a href="https://www.google.com/maps/place/Universidade+Federal+de+Santa+Maria+-+UFSM/@-29.7208831,-53.71733,17z/data=!3m1!4b1!4m6!3m5!1s0x9503b5e734a7c815:0x82b3f9bdf92727ec!8m2!3d-29.7208878!4d-53.7147551!16s%2Fg%2F11b7lj0sgh?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="btn-contato maps">
+                    📍 Ver no Mapa
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="container footer-container">
+
+            <div class="footer-col ">
+                <span class="logo-texto">TechVet <span class="logo-jr">Jr</span></span>
+                <p>Acadêmicos da UFSM dedicados a levar soluções práticas ao campo. Atuação voluntária e compromisso direto com a evolução do produtor rural.</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Navegação</h3>
+                <ul class="footer-links">
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato-destacado">Contato</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Serviços</h3>
+                <ul class="footer-links">
+                    <li><a href="#servicos-bovinos">Bovinos</a></li>
+                    <li><a href="#servicos-equinos">Equinos</a></li>
+                    <li><a href="#servicos-suinos">Suínos e Caprínos</a></li>
+                    <li><a href="#servicos-solos">Consultoria de Solos</a></li>
+                    <li><a href="#servicos-eventos">Participação em Eventos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contato</h3>
+
+                <div class="contato-lista footer-contato">
+                    <div class="contatos-diretos">
+                        <div class="contato-item">
+                        <a href="tel:+5555997228872" class="contato-link">
+                            
+                            ☎️: (55) 99722-8872
+                        </a>
+                    </div>
+
+                    <div class="contato-item">
+                        <a href="mailto:techvetjunior@gmail.com" class="contato-link">
+                            
+                            ✉️:techvetjunior@gmail.com
+                        </a>
+                    </div>
+                </div>
+
+                    <div class="redes-sociais">
+                        <div class="contato-item">
+                            <a href="https://br.linkedin.com/company/techvetjr" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/LinkedIn_logo_initials.png.webp" class="icone-rede" alt="LinkedIn">
+                            </a>
+                        </div>
+
+                        <div class="contato-item">
+                            <a href="https://www.instagram.com/techvet.jr/" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/Instagram_icon.png" class="icone-rede" alt="Instagram">
+                            </a>
+
+                        </div>
+
+                        <div class="contato-item">
+                            <a href="https://www.facebook.com/TechVetJr/?locale=pt_BR" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/Facebook_logo_(square).png" class="icone-rede" alt="Logo Facebook">
+                            </a>
+                        </div>
+
+                        <div class="contato-item">
+                            <a href="https://www.youtube.com/@techvetjunior" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/Youtube_logo.png" class="icone-rede" alt="Logo Youtube">
+                            </a>
+                        </div>
+                    </div>
+                        
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Localização</h3>
+                <address class="footer-endereco">
+                    <p><strong>Universidade Federal de Santa Maria</strong></p>
+                    <p>Av. Roraima nº 1000</p>
+                    <p>Prédio 44, Sala 5009</p>
+                    <p>Campus Sede - Bairro Camobi</p>
+                    <p>Santa Maria - RS</p>
+                    <p>CEP: 97105-900</p>
+                </address>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>CNPJ: 01.234.567/8901-23</p>
+                <a href="privacidade.html" class="priv">Política de Privacidade</a>
+                <p>&copy; 2026 TechVet Júnior. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    
+    AOS.init({
+        duration: 800, 
+        once: true,    
+        offset: 100    
+    });
+    </script>   
+    <script>
+    let indiceAtual = 0;
+
+    function mudarSlide(direcao) {
+        const slides = document.querySelectorAll(".slide");
+        slides[indiceAtual].classList.remove("ativa");
+        
+        indiceAtual += direcao;
+        
+        if (indiceAtual >= slides.length) {
+            indiceAtual = 0;
+        } else if (indiceAtual < 0) {
+            indiceAtual = slides.length - 1;
+        }
+        
+        slides[indiceAtual].classList.add("ativa");
+    }
+
+    const menuBtn = document.getElementById('menu-hamburguer');
+    const menuMobile = document.querySelector('.menu-mobile');
+
+    menuBtn.addEventListener('click', function() {
+        menuMobile.classList.toggle('ativo');
+    });
+
+    
+    const linkServicos = document.querySelector('.dropdown > a');
+    
+    linkServicos.addEventListener('click', function(e) {
+      
+        if (window.innerWidth <= 768) {
+            e.preventDefault();
+            this.parentElement.classList.toggle('aberto');
+        }
+    });
+    
+    </script>
+    <script>
+    window.addEventListener('scroll', function() {
+        const nav = document.getElementById('nav');
+        if (window.scrollY > 50) {
+            nav.classList.add('scrolled');
+        } else {
+            nav.classList.remove('scrolled');
+        }
+    });
+</script>
+</body>
+</html>
