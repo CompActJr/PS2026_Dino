@@ -60,7 +60,7 @@
             </div>
 
             <div class="hero-imagem">
-                <img src="assets/Zootecnia-2.jpg" alt="preencherdps">
+                <img src="assets/Zootecnia-2.jpg" alt="Profissionais de zootecnia trabalhando com animais.">
             </div>
         </div>
     </section>
@@ -80,7 +80,7 @@
                 <h3>Bovinos</h3>
                 <p>Consultoria especializada em manejo reprodutivo, nutricional e sanitário para bovinos de corte e de leite, otimizando a produtividade do seu rebanho</p>
 
-                <img src="assets/bovinos.jpg" alt="bovinos" class="img_animais">
+                <img src="assets/bovinos.jpg" alt="bovinos" class="img_animais" loading="lazy">
 
             </div>
             <div id="servicos-equinos" class="servico-card" data-aos="fade-up" data-aos-delay="100">
@@ -88,7 +88,7 @@
                 <h3>Equinos</h3>
                 <p>Orientações técnica focada no bem-estar, reprodução e nutrição de equinos, incluindo cuidados especifícos com potros recém-nascidos.</p>
 
-                <img src="assets/equinos.jpg" alt="equinos" class="img_animais">
+                <img src="assets/equinos.jpg" alt="equinos" class="img_animais" loading="lazy">
 
             </div>            
             <div id="servicos-suinos" class="servico-card" data-aos="fade-up" data-aos-delay="150">
@@ -96,7 +96,7 @@
                 <h3>Suínos e Caprinos</h3>
                 <p>Acompanhamento de produção, controle de rebanho e adequação de instalações para garantir o máximo rendimento e sanidade animal.</p>
 
-                <img src="assets/suino.avif" alt="suinos" class="img_animais">
+                <img src="assets/suino.avif" alt="suinos" class="img_animais" loading="lazy">
 
             </div>
             <div id="servicos-solos" class="servico-card" data-aos="fade-up" data-aos-delay="200">
@@ -104,7 +104,7 @@
                 <h3>Consultoria de Solos</h3>
                 <p>Análises detalhadas e gestão estratégica de solos para garantir a máxima sustentabilidade e rentabilidade da sua terra.</p>
 
-                <img src="assets/solos.jpg" alt="solo" class="img_animais">
+                <img src="assets/solos.jpg" alt="solo" class="img_animais" loading="lazy">
 
             </div>
             <div id="servicos-eventos" class="servico-card"  data-aos="fade-up" data-aos-delay="250">
@@ -112,7 +112,7 @@
                 <h3>Participação em Eventos</h3>
                 <p>Representação, organização e palestras em ferias e eventos focados na área de Zootecnia e agronegócio.</p>
 
-                <img src="assets/eventos.jpeg" alt="evento_rural" class="img_animais">
+                <img src="assets/eventos.jpeg" alt="evento_rural" class="img_animais" loading="lazy">
 
             </div>
 
@@ -290,23 +290,7 @@
     });
     </script>   
     <script>
-    let indiceAtual = 0;
-
-    function mudarSlide(direcao) {
-        const slides = document.querySelectorAll(".slide");
-        slides[indiceAtual].classList.remove("ativa");
-        
-        indiceAtual += direcao;
-        
-        if (indiceAtual >= slides.length) {
-            indiceAtual = 0;
-        } else if (indiceAtual < 0) {
-            indiceAtual = slides.length - 1;
-        }
-        
-        slides[indiceAtual].classList.add("ativa");
-    }
-
+    
     const menuBtn = document.getElementById('menu-hamburguer');
     const menuMobile = document.querySelector('.menu-mobile');
 
