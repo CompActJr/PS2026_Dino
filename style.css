@@ -119,7 +119,7 @@ body {
     width: 48px;
     height: 48px;
     object-fit: contain;
-    margin-top: 23px;
+    margin-top: 10px;
 }
 
 .nav-links{
@@ -523,12 +523,14 @@ body {
 }
 
 .priv{
-    border-top: 1px solid rgba(255, 255, 255, 0.01);
-    padding: 1.2rem 0;
-    text-align: center;
     font-size: 0.85rem;
     color: #999;
-    text-decoration: none;
+    text-decoration: underline; 
+    transition: color 0.2s;
+}
+
+.priv:hover{
+    color: var(--verde-limao)
 }
 
 /* base dos itens de contato */
@@ -643,6 +645,18 @@ body {
     color: #999;
 }
 
+/* coloca os itens do rodapé lado a lado */
+.footer-bottom-flex {
+    display: flex;
+    flex-wrap: wrap;          
+    justify-content: center;  
+    align-items: center;      
+    gap: 1.5rem;
+}
+
+.footer-bottom-flex p {
+    margin: 0; 
+}
 /*menu hamburguer*/
 .menu-hamburguer{
     display: none;

@@ -14,6 +14,7 @@
     <link rel="icon" type="image/png" sizes="192x192" href="assets/logo_techvet.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
     <header id="nav" class="navbar">
     <div class="navbar-container">
@@ -272,53 +273,16 @@
         </div>
 
         <div class="footer-bottom">
-            <div class="container">
-                <p>CNPJ: 01.234.567/8901-23</p>
-                <a href="privacidade.html" class="priv">Política de Privacidade</a>
-                <p>&copy; 2026 TechVet Júnior. Todos os direitos reservados.</p>
-            </div>
-        </div>
+    <div class="container footer-bottom-flex">
+        <p>CNPJ: 11.291.819/0001-71</p>
+        <a href="privacidade.html" class="priv">Política de Privacidade</a>
+        <p>&copy; 2026 TechVet Júnior. Todos os direitos reservados.</p>
+        <p>Desenvolvido por <strong>Compact</strong></p>
+    </div>
+</div>
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-    
-    AOS.init({
-        duration: 800, 
-        once: true,    
-        offset: 100    
-    });
-    </script>   
-    <script>
-    
-    const menuBtn = document.getElementById('menu-hamburguer');
-    const menuMobile = document.querySelector('.menu-mobile');
-
-    menuBtn.addEventListener('click', function() {
-        menuMobile.classList.toggle('ativo');
-    });
-
-    
-    const linkServicos = document.querySelector('.dropdown > a');
-    
-    linkServicos.addEventListener('click', function(e) {
-      
-        if (window.innerWidth <= 768) {
-            e.preventDefault();
-            this.parentElement.classList.toggle('aberto');
-        }
-    });
-    
-    </script>
-    <script>
-    window.addEventListener('scroll', function() {
-        const nav = document.getElementById('nav');
-        if (window.scrollY > 50) {
-            nav.classList.add('scrolled');
-        } else {
-            nav.classList.remove('scrolled');
-        }
-    });
-</script>
+    <script src="script.js"></script>
 </body>
 </html>
