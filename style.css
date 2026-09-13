@@ -8,6 +8,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 :root {
@@ -16,7 +17,7 @@ html {
     --amarelo-lima: #D9DA4A;
     --verde-limao: #9BC93E;
     --verde-medio: #6FBE5C;
-    --verde-escuro: #4CAA63;
+    --verde-escuro: #3f9053;
 
     /*cores neutras*/
     --texto-principal: #21211b;
@@ -38,9 +39,10 @@ section, .servico-card{
 body { 
     font-family: var(--fonte-corpo);
     color: var(--texto-principal);
-    background-color:rgb(253, 246, 232);
+    background-color: #F8EEDA; /* Cor sólida de segurança */
     line-height: 1.65;
-    padding-top: 90px;
+    padding-top: 120px; 
+    overflow-x: hidden;
 }
 
 body {
@@ -226,17 +228,20 @@ body {
 
 /*3. seção hero, o topo(<section id="hero">)*/
 .hero{
-    padding: 6rem 0;
-    background: linear-gradient(135deg, rgb(253, 246, 232) 0%, #ffffff 100%);
+    padding: 4rem 0;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom, #F8EEDA 0%, #ffffff 100%);
 }
 
 .hero h1{
     font-family: var(--fonte-titulo);
-    font-size: 2.8rem;
-    line-height: 1.25;
+    font-size: 3.2rem;
+    line-height: 1.2;
     color: var(--texto-principal);
     margin-bottom: 1.5rem;
-    max-width: 650px;
+    max-width: 680px;
 }
 
 .hero p{
@@ -263,10 +268,10 @@ body {
 }
 
 .hero-imagem img{
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    max-height: 420px;
     border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.08);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     object-fit: cover;
 }
 
@@ -291,7 +296,7 @@ body {
 /*seção de servicos ( <section id="servicos"> )*/
 .servicos {
     padding: 5rem 0;
-    background: linear-gradient(135deg, #ffffff 0%, rgb(253, 246, 232) 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #F8EEDA 100%); 
 }
 
 .servicos h2{
@@ -378,7 +383,7 @@ body {
 /*seção que somos ( <section id="sobre"> )*/
 .quem-somos{
     padding: 5rem 0;
-    background: linear-gradient(135deg, rgb(253, 246, 232) 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #F8EEDA 0%, #ffffff 100%);
 }
 
 .quem-somos h2{
@@ -408,7 +413,7 @@ body {
 
 .contato-destacado{
     padding: 3rem 0;
-    background: linear-gradient(135deg, #ffffff 0%, rgb(253, 246, 232) 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #F8EEDA 100%);
     text-align: center;
     margin-bottom: 80px;
 }
