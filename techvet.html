@@ -43,8 +43,10 @@
                         <li><a href="#servicos-eventos">Eventos</a></li>
                     </ul>
                 </li>
-
+                
                 <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#como-funciona">Como Funciona</a></li>
+                <li><a href="#faq">Dúvidas</a></li>
                 <li><a href="#contato-destacado">Contato</a></li>
             
             </ul>
@@ -52,7 +54,7 @@
         </div>
     </header>
 
-    <section id="hero" class="hero"  data-aos="fade-right" data-aos-delay="300">
+    <section id="hero" class="hero"  data-aos="fade-right" data-aos-delay="200">
         <div class="container hero-container">
             <div class="hero-conteudo">
                 <h1>Consultoria especializada para quem vive da terra e dos animais.</h1>
@@ -66,61 +68,72 @@
         </div>
     </section>
 
-    <section id="servicos" class="servicos"  data-aos="fade-up" data-aos-delay="100"> 
-        <div class="container">
-            <div class="detalhe-linha-direita">
-                <h2>Serviços</h2>
-                
-            </div>
+    <section id="servicos" class="servicos" data-aos="fade-up" data-aos-delay="100"> 
+    <div class="container">
+        <div class="detalhe-linha-direita">
+            <h2>Serviços</h2>
         </div>
 
         <div class="servicos-grid">
-
+            <!-- Card 1: Bovinos -->
             <div id="servicos-bovinos" class="servico-card" data-aos="fade-up" data-aos-delay="50">
-                
-                <h3>Bovinos</h3>
-                <p>Consultoria especializada em manejo reprodutivo, nutricional e sanitário para bovinos de corte e de leite, otimizando a produtividade do seu rebanho</p>
-
                 <img src="assets/bovinos.jpg" alt="bovinos" class="img_animais" loading="lazy">
-
+                <h3>Bovinos</h3>
+                <p>Consultoria técnica em manejo reprodutivo, nutricional e sanitário para otimizar a produtividade do rebanho.</p>
+                <ul class="servico-lista">
+                    <li>✔ Planejamento Forrageiro</li>
+                    <li>✔ Controle Reprodutivo e Sanitário</li>
+                </ul>
             </div>
+
+            <!-- Card 2: Equinos -->
             <div id="servicos-equinos" class="servico-card" data-aos="fade-up" data-aos-delay="100">
-                
-                <h3>Equinos</h3>
-                <p>Orientações técnica focada no bem-estar, reprodução e nutrição de equinos, incluindo cuidados especifícos com potros recém-nascidos.</p>
-
                 <img src="assets/equinos.jpg" alt="equinos" class="img_animais" loading="lazy">
-
+                <h3>Equinos</h3>
+                <p>Orientação focada no bem-estar, reprodução e nutrição de equinos, incluindo cuidados com potros recém-nascidos.</p>
+                <ul class="servico-lista">
+                    <li>✔ Avaliação Nutricional</li>
+                    <li>✔ Manejo de Instalações</li>
+                </ul>
             </div>            
+
+            <!-- Card 3: Suínos e Caprinos -->
             <div id="servicos-suinos" class="servico-card" data-aos="fade-up" data-aos-delay="150">
-                
-                <h3>Suínos e Caprinos</h3>
-                <p>Acompanhamento de produção, controle de rebanho e adequação de instalações para garantir o máximo rendimento e sanidade animal.</p>
-
                 <img src="assets/suino.avif" alt="suinos" class="img_animais" loading="lazy">
-
+                <h3>Suínos e Caprinos</h3>
+                <p>Acompanhamento de produção, controle de rebanho e adequação de instalações para garantir rendimento e sanidade.</p>
+                <ul class="servico-lista">
+                    <li>✔ Gestão do Rebanho</li>
+                    <li>✔ Adequação de Espaços</li>
+                </ul>
             </div>
+
+            <!-- Card 4: Consultoria de Solos -->
             <div id="servicos-solos" class="servico-card" data-aos="fade-up" data-aos-delay="200">
-                
-                <h3>Consultoria de Solos</h3>
-                <p>Análises detalhadas e gestão estratégica de solos para garantir a máxima sustentabilidade e rentabilidade da sua terra.</p>
-
                 <img src="assets/solos.jpg" alt="solo" class="img_animais" loading="lazy">
-
+                <h3>Consultoria de Solos</h3>
+                <p>Análises detalhadas e gestão estratégica de solos para garantir a máxima sustentabilidade e rentabilidade.</p>
+                <ul class="servico-lista">
+                    <li>✔ Coleta e Análise Técnica</li>
+                    <li>✔ Correção e Adubação</li>
+                </ul>
             </div>
-            <div id="servicos-eventos" class="servico-card"  data-aos="fade-up" data-aos-delay="250">
-                
-                <h3>Participação em Eventos</h3>
-                <p>Representação, organização e palestras em ferias e eventos focados na área de Zootecnia e agronegócio.</p>
 
+            <!-- Card 5: Eventos -->
+            <div id="servicos-eventos" class="servico-card" data-aos="fade-up" data-aos-delay="250">
                 <img src="assets/eventos.jpeg" alt="evento_rural" class="img_animais" loading="lazy">
-
+                <h3>Participação em Eventos</h3>
+                <p>Representação, organização e palestras em feiras e eventos focados na área de Zootecnia e no agronegócio.</p>
+                <ul class="servico-lista">
+                    <li>✔ Organização de Feiras</li>
+                    <li>✔ Palestras Técnicas</li>
+                </ul>
             </div>
-
         </div>
-    </section>
+    </div>
+</section>
 
-    <section id="sobre" class="quem-somos"  data-aos="fade-left" data-aos-delay="300">
+    <section id="sobre" class="quem-somos"  data-aos="fade-left" data-aos-delay="200">
         <div class="container sobre-container">
             <div class="sobre-conteudo">
                 <div class="detalhe-linha">
@@ -157,7 +170,81 @@
         </div>
         </section>
 
-    <section id="contato-destacado" class="contato-destacado"  data-aos="fade-down" data-aos-delay="400">
+
+<section id="como-funciona" class="como-funciona" data-aos="fade-up" data-aos-delay="200">
+    <div class="container">
+        <div class="detalhe-linha">
+            <h2>Como Funciona?</h2>
+            <p>Do primeiro contato até o resultado em campo, nosso processo é transparente e focado em entregar soluções práticas para a sua propriedade.</p>
+        </div>
+
+        <div class="passos-container">
+            <!-- passo 1 -->
+            <div class="passo-item">
+                <div class="passo-icone">1</div>
+                <div class="passo-texto">
+                    <h3>Primeiro Contato</h3>
+                    <p>Você entra em contato via WhatsApp ou e-mail, e nós conversamos para entender a sua necessidade inicial sem compromisso.</p>
+                </div>
+            </div>
+
+            <!-- passo 2 -->
+            <div class="passo-item">
+                <div class="passo-icone">2</div>
+                <div class="passo-texto">
+                    <h3>Diagnóstico e Planejamento</h3>
+                <p>Nossa equipe vai até a sua propriedade para avaliar de perto e desenvolver um plano de ação personalizado com supervisão docente.</p>
+                </div>
+            </div>
+
+            <!-- passo 3 -->
+            <div class="passo-item">
+                <div class="passo-icone">3</div>
+                <div class="passo-texto">
+                    <h3>Execução e Acompanhamento</h3>
+                    <p>Implementamos as melhorias sugeridas e monitoramos os resultados de perto, garantindo a eficácia das soluções.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="faq" class="faq">
+    <div class="container">
+        <h2>Perguntas Frequentes</h2>
+        <div class="faq-container">
+            
+            <details class="faq-item">
+                <summary>O que é uma Empresa Júnior?</summary>
+                <p>Somos uma consultoria gerida exclusivamente por acadêmicos da UFSM. Nosso objetivo é proporcionar vivência empresarial aos alunos enquanto entregamos serviços de excelência técnica e inovação ao produtor rural e à comunidade, sempre sem fins lucrativos.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Por que o investimento é mais acessível?</summary>
+                <p>Como somos uma associação civil sem fins lucrativos focada no aprendizado prático dos membros, todo o valor arrecadado é reinvestido na própria empresa e na capacitação dos alunos. Isso nos permite oferecer serviços de alta qualidade com um custo bem abaixo do mercado tradicional.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Os projetos têm garantia de qualidade e segurança?</summary>
+                <p>Com certeza. Nenhum projeto é entregue ou executado sem a rigorosa supervisão e aprovação final dos nossos professores orientadores (Doutores da UFSM). Você recebe a união da vontade de fazer dos alunos com a vasta experiência dos professores.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Como faço para solicitar um orçamento?</summary>
+                <p>É muito simples! Basta clicar no botão do WhatsApp ou nos enviar um e-mail (na seção Fale Conosco abaixo). Nós agendaremos uma conversa inicial totalmente sem compromisso para entender as necessidades da sua propriedade e propor um plano de ação.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Sou aluno da UFSM, como faço para participar da equipe?</summary>
+                <p>Realizamos processos seletivos periodicamente. O trabalho na TechVet Jr é voluntário, focado em desenvolvimento profissional e networking. Não é necessário ter experiência prévia, pois estamos aqui para aprender juntos! Fique de olho em nosso Instagram para saber quando o próximo edital será lançado.</p>
+            </details>
+
+        </div>
+    </div>
+</section>
+
+
+    <section id="contato-destacado" class="contato-destacado"  data-aos="fade-down" data-aos-delay="200">
         <div class="container">
             <h2>Fale Conosco</h2>
             <p>Ficou alguma dúvida, quer saber mais sobre nossos serviços ou agendar uma consultoria? Nossa equipe está pronta para te atender!</p>
